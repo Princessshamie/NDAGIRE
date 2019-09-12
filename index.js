@@ -10,10 +10,10 @@ rl.question('Enter the users year of birth\n', (year)=>{
         console.log('thats not a number')
     }else if(age < 18  ){
         console.log('the user is a minor')
-    }else if(18 <age> 36) {
+    }else if(age>= 18 && age <= 36){
         console.log('the user is a youth')
-    }else
+    }else {
         console.log('the rest are elders')
-    
+    } 
     rl.close()
-})
+});
